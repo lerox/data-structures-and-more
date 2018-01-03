@@ -24,7 +24,7 @@ public class SinglyLinkedList {
 
 	public void displayList() {
 		System.out.println("List (first --> last)");
-		System.out.println("{");
+		System.out.println("<<<");
 		Node current = this.first;
 
 		while(current != null) {
@@ -32,7 +32,7 @@ public class SinglyLinkedList {
 			current = current.next;
 		}
 
-		System.out.println("}");
+		System.out.println(">>>");
 	}
 
 	public void insertLast(int data) {

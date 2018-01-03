@@ -3,7 +3,6 @@ package ds.linkedlists;
 public class App {
 
 	public static void main(String[] args) {
-
 		Node nodeA = new Node();
 		nodeA.data = 4;
 

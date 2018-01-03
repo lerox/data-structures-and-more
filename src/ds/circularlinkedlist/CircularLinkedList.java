@@ -38,7 +38,7 @@ public class CircularLinkedList {
 
 	public void displayList() {
 		System.out.println("List (first --> last)");
-		System.out.println("{");
+		System.out.println("<<<");
 		Node current = this.first;
 
 		while(current != null) {
@@ -46,7 +46,7 @@ public class CircularLinkedList {
 			current = current.next;
 		}
 
-		System.out.println("}");
+		System.out.println(">>>");
 	}
 
 	private boolean isEmpty() {

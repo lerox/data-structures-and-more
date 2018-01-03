@@ -17,6 +17,5 @@ public class App {
 		System.out.println(myQueue.remove());
 		System.out.println(myQueue.remove());
 		System.out.println(myQueue.remove());
-//		myQueue.debug();
 	}
 }
