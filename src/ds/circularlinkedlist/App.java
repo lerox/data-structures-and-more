@@ -1,5 +1,8 @@
 package ds.circularlinkedlist;
 
+// circular linked list
+//
+// - can perform insert last, for example, better than linked list
 public class App {
 
 	public static void main(String[] args) {

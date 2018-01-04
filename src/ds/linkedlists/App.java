@@ -1,9 +1,13 @@
 package ds.linkedlists;
 
+// linked list
+//
+// - the list size can change easily
+// - poor way to go to the last one node
 public class App {
 
 	public static void main(String[] args) {
-		Node nodeA = new Node();
+		Node nodeA = new Node(); // node called head
 		nodeA.data = 4;
 
 		Node nodeB = new Node();
@@ -12,12 +16,14 @@ public class App {
 		Node nodeC = new Node();
 		nodeC.data = 7;
 
-		Node nodeD = new Node();
+		Node nodeD = new Node(); // node called tail
 		nodeD.data = 8;
 
 		nodeA.next = nodeB;
 		nodeB.next = nodeC;
 		nodeC.next = nodeD;
+
+		// nodeD.next as the last one it points to null...
 
 		System.out.println(checkLen(nodeA));
 		System.out.println(checkLen(nodeD));
