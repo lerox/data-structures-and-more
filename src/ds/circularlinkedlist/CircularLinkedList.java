@@ -7,11 +7,6 @@ public class CircularLinkedList {
 	private Node first;
 	private Node last;
 
-	public CircularLinkedList() {
-		this.first = null;
-		this.last = null;
-	}
-
 	public void insertFirst(int data) {
 		Node newNode = new Node();
 		newNode.data = data;
