@@ -8,14 +8,14 @@ public class BinarySearch {
 		int a = 0; // left
 		int b = list.length - 1; // right
 
-		while (a<=b) {
+		while (a <= b) {
 			int p = (a + b) / 2; // position
 
-			if (data==list[p]) {
+			if (data == list[p]) {
 				return p;
 			}
 
-			if (data<list[p]) {
+			if (data < list[p]) {
 				b = p-1;
 			} else {
 				a = p+1;
