@@ -1,8 +1,18 @@
 package algo.binarysearch;
 
-// data must be sorted
+/**
+ * O(log n)
+ *
+ * data must be sorted
+ */
 public class BinarySearch {
 
+	/**
+	 * @param integer data
+	 * @param integer [] list Sorted input
+	 *
+	 * @return integer
+	 */
 	public int search(int data, int [] list) {
 
 		int a = 0; // left
@@ -16,9 +26,9 @@ public class BinarySearch {
 			}
 
 			if (data < list[p]) {
-				b = p-1;
+				b = p - 1;
 			} else {
-				a = p+1;
+				a = p + 1;
 			}
 		}
 
